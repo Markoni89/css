@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #e5ffe7;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font: normal 16px 'Franklin Gothic Medium', sans-serif; */
+    /* font: normal 16px 'Roboto', sans-serif; */}
+
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    max-width: 800px;
+    margin: auto; }
+        
+a {color :midnightblue;
+    text-decoration: none}
+a:hover {
+    text-decoration: underline;}
+a:active {
+    color:blue}
+a:visited {
+    color:grey}
+    
+
+.avatar {
+    width: 135px;
+    border-radius: 15px;
+    box-shadow: 11px 7px 15px rgba(0, 1000, 100, 0.25)}
+
+.about {
+    margin-bottom: 15px;
+    display: flex}
+
+@media (max-width:600px) {
+    .about {
+        display: block;
+        text-align: center}
+    .avatar {
+        margin-left: 25px}
+    }
+
+.about p{
+    color: green;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;}
+
+.text-about{
+    margin-left: 25px;}
+
+    
+
+.card {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;}
+.card h3, h4 {
+    margin-bottom: 10px;}
+
+.bgd-green {background: #ccffcc;}
+.bgd-yellow {background: #fff9dc;}
+.bgd-red {background: #f8f0f0;}
+
+
+.list {padding: 0 25px}
+
+.list li {margin-bottom: 5px;}
+
+.link-list {
+    padding: 0 25px;
+    list-style: circle;}
+
+.link-list li{margin-bottom: 5px;}
+
+
+.table {width:100%}
+
+.table td{padding-bottom: 5px;}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {color: grey}
+
+
+.contact h3 {text-align: center}
+
+.form-group label{
+    display:block;
+    font-size: 15px}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    padding: 5px 0;
+    outline: none;
+    font-family: inherit}
+
+.row {
+    display:flex;
+    margin-bottom: 5px}
+.row> .form-group {
+    width: 50%;
+    margin-right: 20px;} 
+.row>.form-group:last-child {margin-right: 0}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background: gainsboro;
+    font-family: inherit;
+    border-radius: 5px;
+    cursor: pointer}
+.button:hover { opacity: 0.7}
+
+.bar{
+    width: 33%;
+    margin-right: 20px;} 
+
+
+
+.box{
+    width: 50px;
+    height: 50px;
+    background: goldenrod;
+    position: fixed ;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%}
+
+.like {
+    width: 50px;
+    border-radius: 5px}
+
+/* .position {
+    margin-top: 30px;
+    padding: 20px;
+    height: 20px} */
